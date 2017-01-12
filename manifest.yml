@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iotp-jan-9
+  host: iotp-jan-9
+  disk_quota: 1024M
+  services:
+  - iotp-jan-9-cloudantNoSQLDB
+  - iotp-jan-9-iotf-service
